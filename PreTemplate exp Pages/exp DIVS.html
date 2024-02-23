@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+    <head>
+        <!-- Used by the Keyboard-->
+        <meta charset="utf-8">
+        <title>Splash Page</title>
+        <!-- Used by browser or google search-->
+        <meta name="Author" content="Gavin">
+        <meta name="description" content="Learning html by creating a website">
+        <meta name="keywords" content="Learning, HTML, Boilerplate, Starter">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <noscript>No Javascript here pal</noscript>
+        <!-- ALL THE CSS-->
+        <style>
+            *{
+                box-sizing: border-box;
+                font-size: 2vw;
+                font-family: helvetica, sans-serif;
+            }
+            div { border: thin dotted red;}
+            .header{
+                border: 1px solid green;
+                padding: 15px;
+                font-size: 4vw;
+            }
+            .nav{
+                width: 25%;
+                float: left;
+                padding: 15px;
+                border: 1px solid rgb(19,0,128)
+            }
+            .aside{
+                width:25%;
+                float:left;
+                padding: 15px;
+                border: 1px solid red;
+            }
+
+            .main{
+                width: 50%;
+                float: left;
+                padding: 15px;
+                border: 1px solid green;
+
+            }
+            .footer{
+                padding: 15px;
+                border: 1px solid violet;
+            }
+
+        </style>
+        <!-- Websites load in a specific order. Head, CSS, JS, Body-->
+    </head>
+    <body>
+        <div>This is a division</div>
+        <header class="header"> This is a header</header>
+        <nav class="nav">this is a nav</nav>
+        <main class="main">Important material</main>
+        <aside class="aside">this is an aside space, supports MAIN material</aside>
+        <section class="main">this is a section</section>
+        <article class="main">this is an article, mostly text</article>
+        <footer>this is a footer</footer>
+    </body>
+    <footer class="footer">
+        <blockquote cite="">
+            <!-- Date Accessed 20240214-->
+        </blockquote>
+        <p>
+            <strong>"Life is like riding a bicycle. To keep your balance, you must keep moving."</strong>
+            <br><em> - Albert Einstein</em>
+        </p>
+        <p>&copy Gavin Champ, Powered By GavinEAC in Github</p>
+        <!-- other info possible like num of visitors, contact info, quicklinks-->
+    </footer>
+</html>
