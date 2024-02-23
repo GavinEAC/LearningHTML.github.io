@@ -15,56 +15,53 @@
             *{
                 box-sizing: border-box;
                 font-size: 2vw;
+                font-family: helvetica, sans-serif;
             }
-            html {font-family: helvetica, sans-serif;}
-            div {border: thin dotted red;}
-            header{
+            div { border: thin dotted red;}
+            .header{
                 border: 1px solid green;
                 padding: 15px;
                 font-size: 4vw;
             }
-            nav{
+            .nav{
                 width: 25%;
                 float: left;
                 padding: 15px;
                 border: 1px solid rgb(19,0,128)
             }
-            aside{
+            .aside{
                 width:25%;
                 float:left;
                 padding: 15px;
                 border: 1px solid red;
             }
-            section{
 
-            }
-            main{
+            .main{
                 width: 50%;
                 float: left;
                 padding: 15px;
                 border: 1px solid green;
+
             }
-            article{
-                    
-            }
-            footer{
+            .footer{
                 padding: 15px;
                 border: 1px solid violet;
             }
+
         </style>
         <!-- Websites load in a specific order. Head, CSS, JS, Body-->
     </head>
     <body>
         <div>This is a division</div>
-        <header> This is a header</header>
-        <nav>this is a nav</nav>
-        <main>Important material</main>
-        <aside>this is an aside space, supports MAIN material</aside>
-        <section>this is a section</section>
-               <article>this is an article, mostly text</article>
+        <header class="header"> This is a header</header>
+        <nav class="nav">this is a nav</nav>
+        <main class="main">Important material</main>
+        <aside class="aside">this is an aside space, supports MAIN material</aside>
+        <section class="main">this is a section</section>
+        <article class="main">this is an article, mostly text</article>
         <footer>this is a footer</footer>
     </body>
-    <footer>
+    <footer class="footer">
         <blockquote cite="">
             <!-- Date Accessed 20240214-->
         </blockquote>
